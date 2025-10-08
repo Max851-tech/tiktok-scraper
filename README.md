@@ -78,8 +78,8 @@ environment:
 ├── scraper.py           # Script Python principal avec yt-dlp
 ├── Dockerfile           # Configuration Docker
 ├── docker-compose.yml   # Orchestration Docker
-├── README.md           # Documentation
-└── data/               # Dossier de sortie CSV (créé automatiquement)
+├── README.md            # Documentation
+└── data/                # Dossier de sortie CSV (créé automatiquement)
 \`\`\`
 
 ## Format du fichier CSV
