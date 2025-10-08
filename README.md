@@ -74,12 +74,15 @@ environment:
 ## Structure du projet
 
 \`\`\`
-.
-├── scraper.py           # Script Python principal avec yt-dlp
-├── Dockerfile           # Configuration Docker
-├── docker-compose.yml   # Orchestration Docker
-├── README.md            # Documentation
-└── data/                # Dossier de sortie CSV (créé automatiquement)
+tiktok-scraper/
+│
+├── scraper.py              # Script Python principal avec yt-dlp
+├── Dockerfile              # Configuration Docker
+├── docker-compose.yml      # Orchestration Docker
+├── README.md               # Documentation
+├── .gitignore              # Fichiers à ignorer par Git
+└── data/                   # Dossier de sortie CSV (créé automatiquement)
+    └── *.csv               # Fichiers CSV générés
 \`\`\`
 
 ## Format du fichier CSV
