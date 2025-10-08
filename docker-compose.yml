@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  tiktok-scraper:
+    build: .
+    container_name: tiktok-scraper
+    environment:
+      - TIKTOK_USERNAME=hugodecrypte
+      - MAX_VIDEOS=10
+    volumes:
+      # Persist CSV files outside the container
+      - ./data:/app/data
+    shm_size: '2gb'
+    restart: "no"
